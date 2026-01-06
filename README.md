@@ -8,7 +8,7 @@ We are building a "Human-in-the-loop" (HITL) system designed to mitigate systemi
 ---
 
 ### **Design Philosophy**
-![Collaborative Copilot Architecture](cc_design.jpg)
+![Collaborative Copilot Architecture](cc_design.png)
 
 As shown in our architectural framework, we prioritize:
 * **Validation Gates:** Every LLM output is subjected to confidence checks and unit tests before reaching the human reviewer.
@@ -16,7 +16,7 @@ As shown in our architectural framework, we prioritize:
 * **Reliability & Risk Console:** Real-time monitoring of workflow completion and confidence scores to ensure high-integrity synthesis.
 
 ### **Failure Analysis & Governance**
-![Structural AI Readiness Assessment](cc_design_2.jpg)
+![Structural AI Readiness Assessment](cc_design_2.png)
 
 True Stewardship requires visibility into system failure. Our **Structural AI Readiness Assessment** layer (pictured above) provides real-time monitoring of:
 
